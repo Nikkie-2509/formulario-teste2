@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #01bdc0;
+}
+.todoConteudo{
+    border: 1px solid white;
+    background-color: #9dd6dd;
+    margin: auto;
+    max-width: 780px;
+    height: 942px;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+h1, h2{
+    text-align: center;;
+    color: white;
+}
+
+.container{
+    padding-right: 15px;
+    color: white;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+label{
+    color: #07898b;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input, select{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 8px;
+}
+
+button{
+    align-items: center;
+}
+
+button, .cadastrar .limpar{
+    background-color: #80a0f8;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.limpar{
+    background-color: red;
+}
